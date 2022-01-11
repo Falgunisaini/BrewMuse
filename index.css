@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: 0;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+/* Header Starts */
+#header1{
+    background-color: #006341;
+    width: 100%;
+    height: 10px;
+}
+
+/* Nav1 Div Starts */
+#nav1{
+    background-color: #f7f7f7;
+    height: 90px;
+}
+
+/* Logo */
+.logo{
+    margin-left: 46px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.logo>img{
+    width: 66px;
+    height: 66px;
+    z-index: 100%;
+}
+
+/* Find Store Location */
+#findStore{
+    margin-left: 88%;
+    margin-top: -4%;
+}
+
+#findStore > a{
+    text-decoration: none;
+    color: #5b5959 !important;
+}
+
+.fa-map-marker-alt{
+    display: inline;
+    color: #006341;
+}
+
+#find{
+    display: inline;
+    padding-left: 4px;
+}
+/* Nav1 Div Ends */
+
+
+/* Navigation Menu Starts */
+.navbar{ 
+    background-color: #f7f7f7;
+    height: 110px;
+}
+
+#navigationMenu{
+    width: 70%;
+    margin-top: 0%;
+    margin-left: 5%;
+    position:absolute;
+}
+
+.container>a{
+    text-decoration: none;
+    color: #242221;
+    font-size: 16px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    padding: 1%;
+    font-size-adjust: 1;
+}
+
+.container > a:hover{
+    background-size: 28px;
+    background-color: #242221;
+    color: #FFF;
+}
+
+#a1{
+    float: right;
+    margin-right:68% ;
+}
+/* Navigation Menu Ends */
+
+
+/* Image Div Starts */
+#section{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position-x: 50%;
+}
+
+#section1{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/2.png);
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section2{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/3.jpg);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section3{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/4.jpg);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section4{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/5.png);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section5{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/6.png);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section6{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/7.jpg);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section7{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/8.png);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section8{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/9.jpg);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+
+#section9{
+    height: 550px;
+    width: 100%;
+    background-image: url(images/10.jpg);
+    background-size:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+/* Image Div ends */
+
+#section10{
+    height: 550px;
+    width: 100%;
+}
+
+#component1{
+    float: left;
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+#component2{
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    margin-top: 12%;
+}
+
+#component2>h4{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+#component2>p{
+    text-transform: italic;
+    font-size: 18px;
+    color: #000;
+    padding-top: 1%;
+}
+
+#section11{
+    height: 530px;
+    width: 100%;
+}
+
+#component3{
+    float: left;
+    width: 30%;
+    margin-left: 10%;
+    margin-top: 8%;
+}
+
+#component3>h4{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+#component3>p{
+    text-transform: italic;
+    font-size: 18px;
+    color: #000;
+    padding-top: 1%;
+}
+
+#component4{
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    margin-top: 2%;
+}
+
+/* Social Icon Div Starts */
+#section12{
+    height: 100px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 2px solid white;
+}
+
+.fab{
+    font-size: 33px;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: #3d3935 !important;
+}
+
+.fab:hover{
+    color: #5b5959 !important;
+}
+/* Social Icon Div Ends */
+
+/* Footer Starts */
+footer{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+#footer1{
+    width: 90%;
+    float:left;
+}
+
+#category1{
+    display: inline-block;
+    margin-top: 4.45%;
+    margin-left: 3%;
+    width: 10%;
+}
+
+#category2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    width: 15%;
+    margin-left: 0%;
+}
+
+#category3{
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    width: 10%;
+    margin-left: 17%;
+}
+
+.heading{
+    color: #3d3935 !important;
+}
+
+.heading:hover{
+    color: #a1a1a1 !important;
+}
+
+.subHeadings{
+    color: #3d3935 !important;
+}
+
+.subHeadings:hover{
+    color: #a1a1a1 !important;
+}
+
+#subHeading2{
+    line-height: 1px;
+}
+
+.footerLinks{
+    text-decoration: none;
+}
+
+#category4{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.footerLinks2{
+    text-decoration: none;
+    color: #5b5959 !important;
+    font-size: 14px;
+}
+
+.footerLinks2:hover{
+    color: #a1a1a1 !important;
+}
+
+#category5>p{
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 11px;
+    color: #5b5959;
+}
+
+#footer2{
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+#starbucksWordMark{
+    height: 160px;
+}
+
+/* Footer Ends */
+
+/* Coupon Code */
+#coupon{
+    height: 375px;
+    width: 405px;
+    visibility: hidden;
+    z-index:100%;
+    margin-left: 35%;
+    margin-top: 6%;
+    display: inline-block;
+    border: 2px ridge white;
+    box-shadow: 10px 20px 15px #0b180e;
+}
+
+#offer1{
+    display: inline-block;
+}
+
+#offer2{
+    display: inline-block;
+    margin-left: -1%;
+}
+
+#offer3{
+    display:block;
+}
+
+#btn{
+    position:absolute;
+    margin-top: -28%;
+    margin-left: 28%;
+    z-index: 100;
+    background-color: #5b5959;
+    color: #f7f7f7
+}
