@@ -820,7 +820,7 @@ footer{
         margin-left: 90%;
         margin-top: -7%;
     }
-    button:focus:not(focus-visible){
+    #navIcon:focus:not(focus-visible){
         position: sticky;
         margin-left: 90%;
         margin-top: -7%;
@@ -926,7 +926,7 @@ footer{
         margin-left: 87%;
         margin-top: -12%
     }
-    button:focus:not(focus-visible){
+    #navIcon:focus:not(focus-visible){
         position: sticky;
         margin-left: 87%;
         margin-top: -12%;
@@ -1022,7 +1022,7 @@ footer{
         margin-left: 84%;
         margin-top: -20%
     }
-    button:focus:not(focus-visible){
+    #navIcon:focus:not(focus-visible){
         position: sticky;
         margin-left: 84%;
         margin-top: -20%;
@@ -1047,5 +1047,69 @@ footer{
 @media screen and (max-width: 560px){
     #component4>img {
         margin-top: -25%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .navbar-toggler {
+        margin-left: 79%;
+    }
+    #findStore {
+        margin-left: 74%;
+    }
+    #offer1 {
+        width: 100px;
+        height: 125px;
+    }
+    #offer2 {
+        margin-left: -3%;
+        width: 100px;
+        height: 125px;
+    }
+    #offer3 {
+        width: 200px;
+    }
+    #coupon {
+        height: 190px;
+        width: 204px;
+        margin-left: 25%;
+    }
+    #couponBtn {
+        margin-top: -94%;
+        margin-left: 90%;
+    }    
+}
+
+@media screen and (max-width:400px){
+    #section, #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9 {
+        background-position-x: 54%;
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .logo {
+        margin-left: 25px;
+    }
+    #section{
+        background-position-x: 54%;
+    }
+    #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9 {
+        background-position-x: 50%;
+    }
+    .navbar-toggler {
+        margin-left: 73%;
+    }
+    #findStore {
+        margin-left: 68%;
+    }
+    #weather {
+        margin-left: -3%;
+    }
+    #component4>img {
+        margin-top: -80%;
+    }
+    #section11 {
+        height: 340px;
     }
 }
