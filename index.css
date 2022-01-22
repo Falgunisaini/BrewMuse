@@ -1028,7 +1028,7 @@ footer{
         margin-top: -20%;
     }
     #section11{
-        height: 450px;
+        height: 500px;
     }
     #component1>img {
         margin-left: 13%;
@@ -1041,6 +1041,21 @@ footer{
     }
     #coupon{
         margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    #section11 {
+        height: 460px;
+    }
+    footer{
+        height: 480px;
+    }
+    #ResponsiveFooterLinks {
+        margin-top: 59%;
+    }
+    #category5 {
+        margin-top: 55%;
     }
 }
 
@@ -1077,6 +1092,9 @@ footer{
     #couponBtn {
         margin-top: -94%;
         margin-left: 90%;
+    }
+    #ResponsiveFooterLinks {
+        margin-top: 60%;
     }    
 }
 
@@ -1084,10 +1102,6 @@ footer{
     #section, #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9 {
         background-position-x: 54%;
     }
-}
-
-
-@media screen and (max-width:400px){
     .logo {
         margin-left: 25px;
     }
@@ -1111,5 +1125,14 @@ footer{
     }
     #section11 {
         height: 340px;
+    }
+    #ResponsiveFooterLinks {
+        margin-top: 67%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #ResponsiveFooterLinks {
+        margin-top: 70%;
     }
 }
