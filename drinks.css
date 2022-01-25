@@ -1,0 +1,817 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body{
+    margin: auto;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+/* Header Starts */
+#header1{
+    background-color: #006341;
+    width: 100%;
+    height: 10px;
+}
+
+/* Nav1 Div Starts */
+#nav1{
+    background-color: #f7f7f7;
+    height: 90px;
+}
+
+/* Logo */
+.logo{
+    margin-left: 46px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.logo>img{
+    width: 66px;
+    height: 66px;
+}
+
+/* Find Store Location */
+#findStore{
+    margin-left: 88%;
+    margin-top: -4%;
+}
+
+#findStore > a{
+    text-decoration: none;
+    color: #5b5959 !important;
+}
+
+.fa-map-marker-alt{
+    display: inline;
+    color: #006341;
+}
+
+#find{
+    display: inline;
+    padding-left: 4px;
+}
+
+/* Navigation Menu Starts */
+.navbar{ 
+    background-color: #f7f7f7;
+    height: 110px;
+}
+
+#navigationMenu{
+    width: 100%;
+    margin-top: 0%;
+    margin-left: 3%;
+    position:absolute;
+}
+
+.navbar-nav{
+    margin-left: 5%;
+}
+
+.nav-item>a{
+    text-decoration: none;
+    color: #242221;
+    font-size: 16px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    padding: 0.5%;
+}
+
+.nav-item > a:hover{
+    background-size: 28px;
+    background-color: #242221;
+    color: #FFF !important;
+}
+/* Navigation Menu Ends */
+
+/* Main Div Starts */
+#mainMenu{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+h2, img{
+    padding: 0.5%;
+    margin-left: -3%;
+}
+
+.content{
+    font-size: 14px;
+    padding: 1%;
+    width: 77%;
+    padding-top: 1%;
+    margin-left: -3.5%;
+}
+
+#links1>a, #links2>a{
+    text-decoration: none;
+    color: #2a8a15 !important;
+}
+
+#links1, #links2{
+    display: inline-block;
+    vertical-align: top;
+    padding: 6%;
+    margin-left: -7%;
+    margin-top: -2%;
+}
+
+#links1>a>h2:hover, #links2>a>h2:hover{
+    color: #fff !important;
+    background-color: #2a8a15;
+}
+
+#menu1:hover{
+    width: 292px;
+}
+
+#menu4:hover{
+    width: 155px;
+}
+
+#menu5:hover{
+    width: 178px;
+}
+
+#menu6:hover{
+    width: 130px;
+}
+
+#menu8:hover{
+    width: 245px;
+}
+
+#menu9:hover{
+    width: 210px;
+}
+
+#div3{
+    margin-left: -2%;
+    padding-bottom: 2%;
+}
+
+span > a{
+    text-decoration: none;
+    color: #2a8a15 !important;
+}
+
+span > a:hover{
+    color: #fff !important;
+    background-color: #2a8a15;
+}
+
+/* Main Div Ends */
+
+/* Social Icon Div Starts */
+#section12{
+    height: 100px;
+    width: 100%;
+    background-color: #f0f0f0;
+    border: 2px solid white;
+}
+
+.fab{
+    font-size: 33px;
+    margin-left: 3%;
+    margin-top: 2%;
+    color: #3d3935 !important;
+}
+
+.fab:hover{
+    color: #5b5959 !important;
+}
+/* Social Icon Div Ends */
+
+/* Footer Starts */
+footer{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+#footer1{
+    width: 90%;
+    float:left;
+}
+
+#category1{
+    display: inline-block;
+    margin-top: 4.45%;
+    margin-left: 3%;
+    width: 10%;
+}
+
+#category2{
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    width: 15%;
+    margin-left: 0%;
+}
+
+#category3{
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    width: 10%;
+    margin-left: 17%;
+}
+
+.heading{
+    color: #3d3935 !important;
+}
+
+.heading:hover{
+    color: #a1a1a1 !important;
+}
+
+.subHeadings{
+    color: #3d3935 !important;
+}
+
+.subHeadings:hover{
+    color: #a1a1a1 !important;
+}
+
+#subHeading2{
+    line-height: 1px;
+}
+
+.footerLinks{
+    text-decoration: none;
+}
+
+#category4{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.footerLinks2{
+    text-decoration: none;
+    color: #5b5959 !important;
+    font-size: 14px;
+}
+
+.footerLinks2:hover{
+    color: #a1a1a1 !important;
+}
+
+#category5>p{
+    margin-left: 3%;
+    margin-top: 1%;
+    font-size: 11px;
+    color: #5b5959;
+}
+
+#footer2{
+    float: right;
+    margin-right: 2%;
+    margin-top: 3%;
+}
+
+#starbucksWordMark{
+    height: 160px;
+}
+
+/* Footer Ends */
+
+
+/* Accordion Starts */
+#accordionFooter{
+    position: absolute;
+    width: 100%;
+    background-color:#f7f7f7 !important;
+}
+
+.accordion-item,.accordion-header, .accordion-button, .accordion-body{
+    background-color:#f7f7f7 !important;
+}
+
+.accordionLinks{
+    text-decoration: none;
+    color: #3d3935 !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.accordionSubLinks{
+    text-decoration: none;
+    color: #3d3935 !important;
+    font-size: 14px;
+}
+/* Accordion Ends */
+
+/* Footer Links in Responsive Design Starts */
+#ResponsiveFooterLinks{
+    position: absolute;
+}
+
+#ResponsiveFooterLinks > a{
+    text-decoration: none;
+    color: #5b5959 !important;
+    font-size: 14px;
+}
+
+#ResponsiveFooterLinks > a:hover{
+    color: #a1a1a1 !important;
+}
+/* Footer Links in Responsive Design Ends */
+
+/* Drop Down Menu Starts */
+/* Coffee Drop Down */
+#coffeeDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 420px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#coffeeDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+.list-unstyled{
+    display: inline-block;
+    width: 24%;
+    height: 153px;
+    padding: 3%;
+    vertical-align: top;
+}
+
+
+.list-unstyled >li >a{
+    color: #fff !important;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 3%;
+    font-size: 13px;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+}
+
+.list-unstyled >li >a:hover{
+    background-color: green !important;
+}
+
+#menuHeading{
+    font-size: 15px;
+    font-size: bold;
+}
+
+#coffeeDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#coffeeDropDown2 > img{
+    display: block;
+    height: 140px;
+    width: 100%;
+}
+
+#coffeeSubDiv{
+    margin-top: -3%;
+}
+
+/* Menu Drop Down*/
+#menuDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 360px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#menuDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#menuDropDown1 > .list-unstyled{
+    height: 290px;
+}
+
+#menuDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#MenuDropDown2 > img{
+    display: block;
+    height: 180px;
+    width: 100%;
+}
+
+/* CoffeeHouse Drop Down */
+#coffeeHouseDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#coffeeHouseDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#coffeeHouseDropDown1 > .list-unstyled{
+    height: 240px;
+}
+
+#coffeeHouseDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#coffeeHouseDropDown2 > img{
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+
+#downloadApp{
+    text-decoration: none;
+    color: white !important
+}
+
+#starbucksApp{
+    z-index: 100;
+    margin-top: -99%;
+    width: 65%;
+    height: 220px;
+    margin-left: 14%;
+}
+
+#starbucksApp:hover{
+    background-color: green;
+}
+
+#starbucksApp > img{
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 5%;
+}
+
+#starbucksApp > h6{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 2.5%;
+}
+
+#starbucksApp > p{
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    margin-left: 2.5%;
+    font-size: 14px;
+}
+
+
+/* Responsibility Drop Down */
+#responsibilityDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 415px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#responsibilityDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#responsibilityDropDown1 > .list-unstyled{
+    width: 22%;
+    height: 180px;
+}
+
+#responsibilityDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#responsibilityDropDown2 > img{
+    display: block;
+    height: 138px;
+    width: 100%;
+}
+
+/* About Us Drop Down */
+#aboutUsDropDown{
+    background-color: #1e1e1e;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    height: 220px;
+    z-index: 100;
+    visibility: hidden;
+    position: absolute;
+    margin-top: 14%;
+}
+
+#aboutUsDropDown1{
+    display: inline-block;
+    margin-top: 0%;
+    margin-left: 3%;
+    width: 75%;
+}
+
+#aboutUsDropDown2{
+    float: right;
+    width: 20%;
+    margin-right: 2%;
+}
+
+#aboutUsDropDown2 > img{
+    display: block;
+    height: 220px;
+    width: 100%;
+}
+/* Drop Down Menu Ends */
+
+/* Code for responsive designing using Media Query*/
+@media screen and (max-width: 1600px){
+    #accordionFooter{
+        visibility: hidden;
+    }
+    #ResponsiveFooterLinks{
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .subHeadings,.heading,.footerLinks2{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1265px){
+    #category1{
+        margin-left: 5%;
+        width: 11%;
+    }
+    #category2{
+        margin-left: 2%;
+        width: 18%;
+    }
+    #category3{
+        margin-left: 20%;
+        width: 15%;
+    }
+}
+
+@media  screen and (max-width: 1148px){
+    .navbar-nav{
+        width: 84%;
+        text-align: center;
+    }
+    #weather{
+        margin-left: 62%;
+    }
+}
+
+@media screen and (max-width: 1124px){
+    #category1{
+        margin-left: 6%;
+        width: 13%;
+    }
+    #category2{
+        margin-left: 2%;
+        width: 18%;
+    }
+    #category3{
+        margin-left: 22%;
+        width: 15%;
+    }
+    #category4{
+        margin-top: 6%;
+    }
+}
+
+@media screen and (max-width: 991px){
+    #find{
+        visibility: hidden;
+    }
+    #findStore {
+        margin-left: 86%;
+        margin-top: -3%;
+    }
+    .navbar{
+        height: 0px;
+    }
+    .navbar-toggler{
+        position: absolute;
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+    #navIcon:focus:not(focus-visible){
+        position: sticky;
+        margin-left: 90%;
+        margin-top: -7%;
+    }
+    #coffeeDropDown{
+        display: none;
+    }
+    #menuDropDown{
+        display: none;
+    }
+    #coffeeHouseDropDown{
+        display: none;
+    }
+    #responsibilityDropDown{
+        display: none;
+    }
+    #aboutUsDropDown{
+        display: none;
+    }
+    .container-fluid{
+        background-color:black;
+    }
+    .nav-link.active{
+        color: #ffffffe6 !important;
+        display: inline-block;
+    }
+    .navbar-nav{
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 950px){
+    #category1{
+        margin-left: 7%;
+        width: 18%;
+    }
+    #category2{
+        margin-left: 3%;
+        width: 19%;
+    }
+    #category3{
+        margin-left: 25%;
+        width: 18%;
+    }
+    #category4{
+        margin-top: 8%;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #findStore {
+        margin-left: 82%;
+        margin-top: -5%
+    }
+    .navbar-toggler{
+        margin-left: 87%;
+        margin-top: -12%
+    }
+    #navIcon:focus:not(focus-visible){
+        position: sticky;
+        margin-left: 87%;
+        margin-top: -12%;
+    }
+    #links1{
+        padding: 4%;
+        padding-bottom: 2%;
+        margin-left: -5%;
+    }
+    #links2{
+        display: block;
+        padding: 4%;
+        padding-top: 0%;
+        margin-left: -4%;
+    }
+    img{
+        width: 85%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    footer{
+        height: 460px;
+    }
+    #category1{
+        visibility: hidden;
+    }
+    #category2{
+        visibility: hidden;
+    }
+    #category3{
+        visibility: hidden;
+    }
+    #category4{
+        visibility: hidden;
+    }
+    #category5{
+        margin-top: 37%;
+    }
+    #footer2{
+        visibility: hidden;
+    }
+    #accordionFooter{
+        visibility: visible;
+        margin-top: 12%;
+        z-index: 100;
+    }
+    #ResponsiveFooterLinks{
+        visibility: visible;
+        margin-top: 47%;
+        margin-left: 4%;
+    }
+    #div3 {
+        margin-left: -2%;
+        padding-bottom: 6%;
+        padding-top: 3%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #findStore {
+        margin-left: 78%;
+        margin-top: -8%;
+    }
+    .navbar-toggler{
+        margin-left: 84%;
+        margin-top: -20%
+    }
+    #navIcon:focus:not(focus-visible){
+        position: sticky;
+        margin-left: 84%;
+        margin-top: -20%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    footer{
+        height: 480px;
+    }
+    #ResponsiveFooterLinks {
+        margin-top: 59%;
+    }
+    #category5 {
+        margin-top: 55%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .navbar-toggler {
+        margin-left: 79%;
+    }
+    #findStore {
+        margin-left: 74%;
+    }
+    #ResponsiveFooterLinks {
+        margin-top: 60%;
+    }    
+}
+
+@media screen and (max-width:400px){
+    .logo {
+        margin-left: 25px;
+    }
+    .navbar-toggler {
+        margin-left: 73%;
+    }
+    #findStore {
+        margin-left: 68%;
+    }
+    #ResponsiveFooterLinks {
+        margin-top: 67%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    #ResponsiveFooterLinks {
+        margin-top: 70%;
+    }
+}
