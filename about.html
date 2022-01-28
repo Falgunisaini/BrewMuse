@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beverage List | Starbucks Coffee Company</title>
+    <title>About Us | Starbucks Coffee Company</title>
     <link href="images/logo.png" rel="icon"/>
-    <link href="drinks.css" rel="stylesheet"/>
+    <link href="about.css" rel="stylesheet"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>   
     <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>  
@@ -216,14 +216,13 @@
     </div>
     <!-- Hoverable DropDown Menu Ends-->
 
-
     <!--Logo Div Starts-->
     <div id="nav1">
         <div class="logo">
             <a class="navbar-brand" href="index.html"><img src="./images/logo.png" alt="Logo"></a>
         </div>
         <div id="findStore">
-            <a href="#">
+            <a href="index.html">
                 <i class="fas fa-map-marker-alt"></i>
                 <p id="find">Find a Store</p> 
             </a>
@@ -263,9 +262,8 @@
                         <a class="nav-link active" aria-current="page" href="#">STARBUCKS DELIVERS</a>
                     </li>
                     <li class="nav-item" id="about">
-                        <a class="nav-link active" href="about.html" onmousemove="mouseOverAboutUs()"    onmouseout="mouseOutAboutUs()">ABOUT US</a>
+                        <a class="nav-link active" href="about.html" onmousemove="mouseOverAboutUs()" onmouseout="mouseOutAboutUs()">ABOUT US</a>
                     </li>
-        
                 </ul>
             </div>
         </div>
@@ -273,29 +271,47 @@
     <!--Navigation Menu Ends-->
 
     <!-- Main Div Starts -->
-    <div class="container" id="mainMenu">
-        <h2>Drinks</h2>
-        <img src="images/Drinks.jpg" alt="Drinks"/>
-        <p class="content">That’s why our coffee buyers travel the world, carefully selecting the finest beans. That’s why our master roasters stand watch over each batch, bringing each bean to its peak of flavour. And that’s why our friendly baristas handcraft each beverage to your order. We want you to discover your perfect, personal drink. Hey, when you feel as passionately about coffee as we do (and you do), it’s what the bean deserves.</p>
-        <div id="links1">
-            <a href="#"><h2 id="menu1">Featured Beverages</h2></a>
-            <a href="#"><h2 id="menu2">Freshly Brewed Coffee</h2></a>
-            <a href="#"><h2 id="menu3">Crème Frappuccino®</h2></a>
-            <a href="#"><h2 id="menu4">Cold Brew</h2></a>
-            <a href="#"><h2 id="menu5">Iced Shaken</h2></a>
+    <div class="container" id="mainDiv">
+        
+        <div id="div1">
+            <h4>About Us</h4>
+            <h4>It happens millions of times each week – a customer receives a drink from a Starbucks barista – but each interaction is unique.</h4>
+            <img src="images/about-us.jpg" alt="Image"/>
+            <p class="content">It’s just a moment in time – just one hand reaching over the counter to present a cup to another outstretched hand.</p>
+            <p class="content">But it’s a connection....</p>
+            <p class="content">We make sure everything we do honors that connection – from our commitment to the highest quality coffee in the world, to the way we engage with our customers and communities to do business responsibly.</p>
+            <p class="content">From our beginnings as a single store over forty years ago, in every place that we’ve been, and every place that we touch, we've tried to make it a little better than we found it.</p>
         </div>
-        <div id="links2">
-            <a href="#"><h2 id="menu6">Espresso</h2></a>
-            <a href="#"><h2 id="menu7">Coffee Frappuccino®</h2></a>
-            <a href="#"><h2 id="menu8">Other Beverages</h2></a>
-            <a href="#"><h2 id="menu9">Teavana® Tea</h2></a>
+
+        <div id="div2">
+            <h4>Our Company</h4>
+            <h4>To say Starbucks purchases and roasts high-quality whole bean coffees is very true. That’s the essence of what we do – but it hardly tells the whole story.</h4>
+            <img src="images/about-us-company.jpg" alt="Image"/>
+            <p class="content">Our coffeehouses have become a beacon for coffee lovers everywhere. Why do they insist on Starbucks? Because they know they can count on genuine service, an inviting atmosphere and a superb cup of expertly roasted and richly brewed coffee every time.</p>
+            <h6>Expect More Than Coffee</h6>
+            <p class="content">We are passionate purveyors of coffee and everything else that goes with a rewarding coffeehouse experience. We also offer a selection of premium Tazo® teas, fine pastries and other delectable treats to please the taste buds. And the music you hear in store is chosen for its artistry and appeal. People come to Starbucks to chat, meet up or work.</p>
+            <p class="content">We’re a neighborhood gathering place, a part of the daily routine – and we couldn’t be happier about it. Get to know us and you’ll see: we are so much more than what we brew.</p>
+            <p class="content">We are passionate purveyors of coffee and everything else that goes with a rewarding coffeehouse experience.</p>
+            <p>Tata Starbucks Private Limited <strong>(formerly known as "Tata Starbucks Limited")</strong></p>
         </div>
+
         <div id="div3">
-            <span><a href="menu.html" id="menu10">Menu .</a></span>
-            <span>Drinks</span>
+            <h4>Our Heritage</h4>
+            <h4>Every day, we go to work hoping to do two things: share great coffee with our friends and help make the world a little better. It was true when the first Starbucks opened in 1971, and it’s just as true today.</h4>
+            <img src="images/about-us-heritage.jpg" alt="Image"/>
+            <p class="content">Back then, the company was a single store in Seattle’s historic Pike Place Market. From just a narrow storefront, Starbucks offered some of the world’s finest fresh-roasted whole bean coffees. The name, inspired by Moby Dick, evoked the romance of the high seas and the seafaring tradition of the early coffee traders.</p>
+            <p class="content">In 1981, Howard Schultz (Starbucks chairman, president and chief executive officer) first walked into a Starbucks store. From his first cup of Sumatra, Howard was drawn into Starbucks and joined a year later. A year later, in 1983, Howard travelled to Italy and became captivated by Italian coffee bars and the romance of the coffee experience. He had a vision to bring the Italian coffeehouse tradition back to the United States. A place for conversation and a sense of community. A third place between work and home. He left Starbucks for a short period of time to start his own Il Giornale coffeehouses and returned in August 1987 to purchase Starbucks with the help of local investors..</p>
+            <p class="content">Our mission to inspire and nurture the human spirit – one person, one cup and one neighbourhood at a time.</p>
+        </div>
+
+        <div id="div4">
+            <span><a href="#div1">About Us .</a></span>
+            <span><a href="#div2">Our Company .</a></span>
+            <span><a href="#div3">Our Heritage</a></span>
         </div>
     </div>
     <!-- Main Div Ends -->
+
 
     <!-- Accordion for footer -->
     <div class="accordion accordion-flush" id="accordionFooter">
